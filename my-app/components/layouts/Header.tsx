@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b">
@@ -6,15 +7,15 @@ export default function Header() {
           <span className="font-bold">chk.dev 블로그</span>
         </a>
         <nav className="ml-auto flex items-center gap-4">
-          <a href="#" className="hover:text-primary font-medium">
+          <Link href="/" className="hover:text-primary font-medium">
             홈
-          </a>
-          <a href="#" className="hover:text-primary font-medium">
+          </Link>
+          <Link href="/blog" className="hover:text-primary font-medium">
             블로그
-          </a>
-          <a href="#" className="hover:text-primary font-medium">
+          </Link>
+          <Link href="/about" className="hover:text-primary font-medium">
             소개
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
