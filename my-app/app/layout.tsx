@@ -35,7 +35,6 @@ export default function RootLayout({
           {/* Footer 영역 */}
           <Footer />
         </div>
-        );
       </body>
     </html>
   );
