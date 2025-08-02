@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
-import { TagFilterItem } from '@/types/notion';
+import { TagFilterItem } from '@/types/blog';
 interface TagSectionProps {
   tags: TagFilterItem[];
 }

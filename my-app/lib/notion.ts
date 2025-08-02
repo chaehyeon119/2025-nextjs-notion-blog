@@ -20,7 +20,7 @@ export const getPublishedPosts = async (): Promise<Post[]> => {
     },
     sorts: [
       {
-        property: 'Modified Date',
+        property: 'Date',
         direction: 'descending',
       },
     ],
